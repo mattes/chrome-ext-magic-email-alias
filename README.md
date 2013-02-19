@@ -1,4 +1,10 @@
-chrome-ext-magic-email-alias
-============================
+Magic Email-Alias
+=================
 
-Replaces emails with an email alias using the current domain while you are typing. Chrome Extension.
+__Chrome Extension__
+
+Replaces emails with an email alias using the current domain while you are typing.
+
+    john@example.com becomes john+domain@example.com
+    
+Open http://goo.gl/3awBc and install (requires [Chrome](www.google.com/chrome)).
