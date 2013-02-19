@@ -7,4 +7,4 @@ Replaces emails with an email alias using the current domain while you are typin
 
     john@example.com becomes john+domain@example.com
     
-Open http://goo.gl/3awBc and install (requires [Chrome](www.google.com/chrome)).
+Open http://goo.gl/3awBc and install (requires [Chrome](http://www.google.com/chrome)).
