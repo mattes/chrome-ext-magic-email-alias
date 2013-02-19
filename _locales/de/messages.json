@@ -1,0 +1,20 @@
+{
+  "extName": {
+    "message": "Magic Email-Alias" 
+  },
+ "extDescription": {
+   "message": "Ersetzt während dem Tippen Emails mit einem Email-Alias, bestehend aus der Domain." 
+ },
+ "optDescription": {
+   "message": "... ersetzt automatisch Emails mit einem Email-Alias. Der Email-Alias wird aus Teilen der Domain zusammengesetzt." 
+ },
+ "optExample": {
+   "message": "john@example.com wird zu john<strong>+domain</strong>@example.com" 
+ },
+ "optEmailLabel": {
+   "message": "Aktiviere Magic Email-Alias für diese Email-Adressen ..." 
+ },
+ "optEmailHelp": {
+   "message": "Schreibe eine Email-Adresse pro Zeile." 
+ }
+}
