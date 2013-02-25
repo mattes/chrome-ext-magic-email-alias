@@ -73,6 +73,8 @@
       // console.log("_tld", _tld); 
       // console.log("_xLevelDomains", _xLevelDomains); 
 
+      // @todo always remove leading www.
+
       if(_xLevelDomains == 'www') {
         hostname = _2ndLevelDomain;  
       } else {
@@ -88,6 +90,7 @@
   // sanitize
   hostname = hostname.replace(/\./g, '-').replace(/[^a-z0-9-]/ig, '');
 
+  // @todo what if hostname is empty
 
   // -------------------------------
 
