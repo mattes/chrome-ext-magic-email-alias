@@ -119,7 +119,7 @@
     if(element.tagName == 'INPUT') {
 
       // consider <input type="text"> elements
-      if(~['text', 'email'].indexOf(element.getAttribute('type')) || element.getAttribute('type') === null) {
+      if(~['text', 'email'].indexOf(element.getAttribute('type').toLowerCase()) || element.getAttribute('type') === null) {
         element.value = processInput(element.value);
       }
     }
